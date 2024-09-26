@@ -15,3 +15,4 @@ console.log(arr.find((number)=>
 
 //the find method in js does return the single value but if we log then it will give us all the numbers 
 //that passes the specific test or condition designed for it.
+//the find method does not modifies the original array.
