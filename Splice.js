@@ -22,3 +22,7 @@ let numbers2=[10,30,50,70,90];
 
 numbers2.splice(1,3,20,30,40,50,60,70,80);
 console.log(numbers2);
+
+//Original array gets modifies here and that is the only issue and that's why the next js Method tospliced() is introduced .
+//Do it anyway !
+//you can't cheat the destiny.
