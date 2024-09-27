@@ -7,3 +7,30 @@ console.log(arr.join());
 //it is just opposite of the join and does the exact opposite work.
 console.log(arr.join("**"));
 
+
+
+
+console.log(arr.reduce((total,n)=>
+{
+    return n+=total;
+}));
+
+
+let names=
+[
+    "Mahesh",
+    "gavale",
+    "Pune",
+    "Omerga"
+]
+
+
+
+let obj=names.entries();
+let m1=new Map();
+for(const[i,v] of obj)
+{
+    console.log(i,v);
+    
+}
+
