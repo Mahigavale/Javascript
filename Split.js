@@ -11,9 +11,9 @@ console.log(name.split('A',10));
 //if we take it as infinity it will return as an Empty Array.
 
 
-let names="Mansisunilnibe";
+let names="Mansi*sunil*nibe";
 
-console.log(names.split(""));
+console.log(names.split("*"));
 //if we pass the seperator as "" with no space then it will return the elements the form of th earray of the charatcers.
 
 
