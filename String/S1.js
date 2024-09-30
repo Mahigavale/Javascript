@@ -7,4 +7,7 @@ const str3=`i am the best`;  //template Literal.
 
 const str4=new String('i am the  best !');
 
-console.log(str,str2,str3,str4);
+const str5=String("i am the best");
+//using the string fucntion.
+
+console.log(str,str2,str3,str4,"hehehe",str5);
