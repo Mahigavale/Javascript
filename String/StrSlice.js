@@ -18,4 +18,4 @@ console.log(Str4);
 //1 is Starting index and second is the length upto which the specified string has to be extarcted.
 //remember that the Substring and Substr differs fundamentally by the virtue of the params.
 //one takes the Starting and Ending indices 
-//while the substr takes the start indesx and the length to which we want to slice the string.
+//while the substr takes the start index and the length to which we want to slice the string.
