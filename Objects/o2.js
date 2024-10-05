@@ -1,17 +1,16 @@
 
-
-let o1={
-    a:1,
-    b:2
-}
-
-let o2=
+let obj1=
 {
-    b:4,
-    c:5
+    a:3,
+    b:4
 }
 
-console.log(Object.assign(o1,o2));
-console.log(o1);
+let obj2=
+{
+    b:8,
+    c:3
+}
 
-//modifyuing method
+console.log(Object.assign(obj1,obj2));
+
+console.log(obj1);
