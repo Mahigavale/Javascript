@@ -15,6 +15,10 @@ Object.defineProperty(profile,'dob',{
 //defineproperty() gives us better access at writing the properties and 
 //managing their behaviour.
 
+//a simpe property creation with the dot operator would give us the addition of property but
+//not the desired behaviour and better control over the property behaviour
+//so always use the define property if you want a better access to property.
+
 profile.dob="22/22/22"
 
 console.log(delete profile.dob);
