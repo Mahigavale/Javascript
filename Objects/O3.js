@@ -2,7 +2,7 @@ let profile=
 {
     nam:"mahesh",
     moile:"777777777",
-    email:"mahesh@.com",
+    email:"mahesh@gmail.com",
     city:"pune",
     pinocde:"232345",
     subd:"Lohara",
