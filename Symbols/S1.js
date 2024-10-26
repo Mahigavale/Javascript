@@ -36,10 +36,16 @@ let obj4=Symbol.for("thiskey1");
 console.log(obj3==obj4);
 
 
+
+
 let noon={
     [obj3]:"avoid expenditure",
-    [obj4]:"areee"
+    [obj4]:"areee",
+    namma:"123"
 }
+console.log(Object.keys(noon));
+
+//Object.keys provides the array of the property names in the given Object.
 
 console.log(noon[obj3]);
 console.log(noon[obj4]);
