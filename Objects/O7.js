@@ -12,3 +12,7 @@ for(const[k,v] of Object.entries(names))
     console.log(`${k}:${v}`);
     
 }
+
+console.log(Object.getOwnPropertyNames(names));
+
+//getOwnPropertyNames is used to get the names of the properties in the given object.
