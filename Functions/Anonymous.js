@@ -61,3 +61,13 @@ function demo()
     console.log("immediate");
     
 })();
+
+
+
+
+
+(function()
+{
+    console.log("immediately invoked function");
+    
+})();
