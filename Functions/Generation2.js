@@ -1,6 +1,6 @@
 
 
-function *demo2()
+function* demo2()
 {
     for (let v=10;v>0;v--)
     {
@@ -8,7 +8,7 @@ function *demo2()
     }
 }
 
-function *demo()
+function* demo()
 {
     yield *demo2();
 }
