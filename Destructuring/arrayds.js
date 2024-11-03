@@ -28,7 +28,7 @@
 
 let names=['mahesh','ashok','gavale'];
 
-let[a,...s]=names;
+let[a,,s]=names;
 console.log(a);
 console.log(s);
 
